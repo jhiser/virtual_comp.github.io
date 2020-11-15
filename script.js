@@ -958,7 +958,12 @@ this.parameters.random_prob2 = random_prob2;
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -1490,7 +1495,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -2071,7 +2081,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -2603,7 +2618,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -3274,7 +3294,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -3806,7 +3831,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -4399,7 +4429,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -4931,7 +4966,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -5846,7 +5886,12 @@ this.parameters.random_prob2 = random_prob2;
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -6378,7 +6423,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -7010,7 +7060,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -7542,7 +7597,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -8252,7 +8312,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -8784,7 +8849,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -9416,7 +9486,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
@@ -9948,7 +10023,12 @@ this.state.response_action='test';
                             "files": {},
                             "responses": {},
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "run": function anonymous(
+) {
+this.state.response_action='test';
+}
+                            },
                             "title": "Too slow",
                             "skip": "${this.state.ended_on != 'timeout'}",
                             "timeout": "2000",
