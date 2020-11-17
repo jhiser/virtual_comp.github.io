@@ -559,7 +559,7 @@ this.state.trialnum=0;
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -5445,7 +5445,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -12312,7 +12312,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -12983,6 +12983,7 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
+                                    "tardy": true,
                                     "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
@@ -14007,6 +14008,7 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
+                                    "tardy": true,
                                     "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
@@ -15118,7 +15120,8 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "tardy": true,
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -16142,7 +16145,8 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "tardy": true,
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -16649,7 +16653,7 @@ this.state.response_action='test';
                                     "messageHandlers": {},
                                     "title": "2b_left",
                                     "tardy": true,
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -16862,7 +16866,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -17500,7 +17504,7 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "responses": {},
                                     "parameters": {},
                                     "messageHandlers": {
-                                      "before:prepare": function anonymous(
+                                      "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -17555,7 +17559,7 @@ this.state.response_action='test';
                                     "responses": {},
                                     "parameters": {},
                                     "messageHandlers": {
-                                      "before:prepare": function anonymous(
+                                      "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -17584,7 +17588,8 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "tardy": true,
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -18152,7 +18157,7 @@ this.state.response_action='test';
                                     "messageHandlers": {},
                                     "title": "2b_left",
                                     "tardy": true,
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -18730,7 +18735,8 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "tardy": true,
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -19955,7 +19961,8 @@ this.state.response_action='test';
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "tardy": true,
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -20523,7 +20530,7 @@ this.state.response_action='test';
                                     "messageHandlers": {},
                                     "title": "2b_left",
                                     "tardy": true,
-                                    "skip": "${this.state.ended_on == 'timeout' || this.state.response_action != 'keydown(ArrowLeft)'}",
+                                    "skip": "${this.state.response_action != 'keydown(ArrowLeft)'}",
                                     "content": [
                                       {
                                         "type": "lab.canvas.Screen",
@@ -21882,7 +21889,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "30"
+        "n": "5"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -26463,7 +26470,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "5"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -31013,7 +31020,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -36032,7 +36039,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -40582,7 +40589,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "20"
+        "n": "5"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -45632,7 +45639,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "20"
+        "n": "5"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -50651,7 +50658,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -55201,7 +55208,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -55839,7 +55846,7 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "responses": {},
                                     "parameters": {},
                                     "messageHandlers": {
-                                      "before:prepare": function anonymous(
+                                      "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -55894,7 +55901,7 @@ this.state.response_action='test';
                                     "responses": {},
                                     "parameters": {},
                                     "messageHandlers": {
-                                      "before:prepare": function anonymous(
+                                      "end": function anonymous(
 ) {
 this.state.response_action='test';
 
