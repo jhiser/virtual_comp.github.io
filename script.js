@@ -559,7 +559,7 @@ this.state.trialnum=0;
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "1"
+        "n": "11"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -782,7 +782,15 @@ this.parameters.random_prob2 = random_prob2;
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0708.png'){
+  this.parameters.firstresponse='2'
+}else{
+  this.parameters.firstresponse='1'}
+}
+                    },
                     "title": "Right_selected",
                     "timeout": "1000"
                   },
@@ -925,7 +933,13 @@ this.parameters.random_prob2 = random_prob2;
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -1059,7 +1073,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -1261,7 +1288,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -1462,7 +1502,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -1597,7 +1643,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -1800,7 +1859,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -2048,7 +2120,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -2182,7 +2260,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -2384,7 +2475,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -2585,7 +2689,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -2720,7 +2830,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -2923,7 +3046,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -3118,7 +3254,15 @@ this.state.response_action='test';
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0708.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
@@ -3261,7 +3405,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -3395,7 +3545,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -3597,7 +3760,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -3933,7 +4109,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -4136,7 +4325,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -4396,7 +4598,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -4530,7 +4738,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -4732,7 +4953,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -4933,7 +5167,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "before:prepare": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -5068,7 +5308,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -5271,7 +5524,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "end": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -5445,7 +5711,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "1"
+        "n": "11"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -5671,7 +5937,15 @@ this.parameters.random_prob2 = random_prob2;
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0708.png'){
+  this.parameters.firstresponse='2'
+}else{
+  this.parameters.firstresponse='1'}
+}
+                    },
                     "title": "Right_selected",
                     "timeout": "1000"
                   },
@@ -5768,7 +6042,12 @@ this.parameters.random_prob2 = random_prob2;
                         },
                         "responses": {},
                         "parameters": {},
-                        "messageHandlers": {},
+                        "messageHandlers": {
+                          "before:prepare": function anonymous(
+) {
+this.parameters.imageshown=this.parameters.random_neu_img;
+}
+                        },
                         "title": "image",
                         "timeout": "2500"
                       },
@@ -5853,7 +6132,13 @@ this.parameters.random_prob2 = random_prob2;
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -5987,7 +6272,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -6189,7 +6488,21 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -6525,7 +6838,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -6728,7 +7055,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -6942,7 +7282,12 @@ this.state.response_action='test';
                         },
                         "responses": {},
                         "parameters": {},
-                        "messageHandlers": {},
+                        "messageHandlers": {
+                          "before:prepare": function anonymous(
+) {
+this.parameters.imageshown=this.parameters.random_neu_img;
+}
+                        },
                         "title": "Image",
                         "timeout": "2500"
                       },
@@ -7027,7 +7372,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -7161,7 +7512,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+ 
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -7363,7 +7728,21 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -7564,7 +7943,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -7699,7 +8084,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -7902,7 +8300,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -8097,7 +8508,15 @@ this.state.response_action='test';
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0708.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
@@ -8194,7 +8613,12 @@ this.state.response_action='test';
                         },
                         "responses": {},
                         "parameters": {},
-                        "messageHandlers": {},
+                        "messageHandlers": {
+                          "before:prepare": function anonymous(
+) {
+this.parameters.imageshown=this.parameters.random_neu_img;
+}
+                        },
                         "title": "Image",
                         "timeout": "2500"
                       },
@@ -8279,7 +8703,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -8413,7 +8843,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -8615,7 +9059,21 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -8816,7 +9274,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -8951,7 +9415,20 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -9154,7 +9631,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -9368,7 +9858,12 @@ this.state.response_action='test';
                         },
                         "responses": {},
                         "parameters": {},
-                        "messageHandlers": {},
+                        "messageHandlers": {
+                          "before:prepare": function anonymous(
+) {
+this.parameters.imageshown=this.parameters.random_neu_img;
+}
+                        },
                         "title": "image",
                         "timeout": "2500"
                       },
@@ -9453,7 +9948,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twoa;
+this.parameters.stage2=1;
+}
+                            },
                             "title": "2a_lamps",
                             "timeout": "3000"
                           },
@@ -9587,7 +10088,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome1L
+}else {this_lamp_prob=this.parameters.outcome0L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                    },
                                     "title": "2a_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -9789,7 +10304,21 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twoa == 'tibetan.0910.png') {
+  this_lamp_prob=this.parameters.outcome0L
+}else {this_lamp_prob=this.parameters.outcome1L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                        },
                                         "title": "2a_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -9990,7 +10519,13 @@ this.state.response_action='test';
                               "keydown(ArrowRight)": ""
                             },
                             "parameters": {},
-                            "messageHandlers": {},
+                            "messageHandlers": {
+                              "end": function anonymous(
+) {
+this.parameters.thislampname=this.parameters.twob;
+this.parameters.stage2=2;
+}
+                            },
                             "title": "2b_lamps",
                             "timeout": "3000"
                           },
@@ -10125,7 +10660,21 @@ this.state.response_action='test';
                                     },
                                     "responses": {},
                                     "parameters": {},
-                                    "messageHandlers": {},
+                                    "messageHandlers": {
+                                      "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 2
+}else {this.parameters.secondresponse = 1}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome3L
+}else {this_lamp_prob=this.parameters.outcome2L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+
+}
+                                    },
                                     "title": "2b_lamps_right",
                                     "timeout": "2000"
                                   },
@@ -10328,7 +10877,20 @@ this.state.response_action='test';
                                         },
                                         "responses": {},
                                         "parameters": {},
-                                        "messageHandlers": {},
+                                        "messageHandlers": {
+                                          "before:prepare": function anonymous(
+) {
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this.parameters.secondresponse = 1
+}else {this.parameters.secondresponse = 2}
+
+if (this.parameters.twob == 'tibetan.1112.png') {
+  this_lamp_prob=this.parameters.outcome2L
+}else {this_lamp_prob=this.parameters.outcome3L}
+this.state.this_lamp_prob=this_lamp_prob;
+this.parameters.trialoutcome=this.state.this_lamp_prob;
+}
+                                        },
                                         "title": "2b_lamps_left",
                                         "timeout": "2000"
                                       },
@@ -12312,7 +12874,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -16866,7 +17428,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -21889,7 +22451,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "5"
+        "n": "30"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -26470,7 +27032,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "5"
+        "n": "10"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -31020,7 +31582,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -36039,7 +36601,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -40589,7 +41151,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "5"
+        "n": "20"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -45639,7 +46201,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "5"
+        "n": "20"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -50658,7 +51220,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -55208,7 +55770,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "40"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
