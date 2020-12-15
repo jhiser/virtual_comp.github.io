@@ -559,7 +559,7 @@ this.state.trialnum=0;
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -708,7 +708,15 @@ this.parameters.random_prob2 = random_prob2;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -976,6 +984,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -1545,6 +1555,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -2163,6 +2175,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -2732,6 +2746,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -3448,6 +3464,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -4011,6 +4029,8 @@ this.state.response_action='test';
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -4641,6 +4661,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -5210,6 +5232,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -5711,7 +5735,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -5863,7 +5887,15 @@ this.parameters.random_prob2 = random_prob2;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -6175,6 +6207,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -6740,6 +6774,8 @@ this.state.response_action='test';
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -7415,6 +7451,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -7986,6 +8024,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -8746,6 +8786,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -9317,6 +9359,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -9991,6 +10035,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -10562,6 +10608,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -11281,12 +11329,30 @@ this.state.response_action='test';
           "left": 0,
           "top": 0,
           "angle": 0,
-          "width": "748",
-          "height": "572",
+          "width": 1392,
+          "height": 822,
           "stroke": null,
           "strokeWidth": 0,
           "fill": "black",
-          "src": "${ this.files[\"quiz_q8.png\"] }"
+          "src": "${ this.files[\"break.png\"] }"
+        },
+        {
+          "type": "i-text",
+          "left": 0,
+          "top": 200,
+          "angle": 0,
+          "width": 471.39,
+          "height": 36.16,
+          "stroke": null,
+          "strokeWidth": 1,
+          "fill": "black",
+          "text": "Study will continue in 60 seconds",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": 32,
+          "fontFamily": "sans-serif",
+          "lineHeight": 1.16,
+          "textAlign": "center"
         }
       ],
       "viewport": [
@@ -11294,11 +11360,10 @@ this.state.response_action='test';
         600
       ],
       "files": {
-        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png"
+        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png",
+        "break.png": "embedded\u002F39e22225d74ac1ae9288dd3b31f55622163a57f68c64380be6a438191926218d.png"
       },
-      "responses": {
-        "keydown(ArrowRight)": ""
-      },
+      "responses": {},
       "parameters": {},
       "messageHandlers": {},
       "title": "Break",
@@ -13130,7 +13195,15 @@ this.parameters.outcome4flip=outcome4flip;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -13321,6 +13394,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -13828,6 +13903,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -14346,6 +14423,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -14853,6 +14932,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -15458,6 +15539,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -15965,6 +16048,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -16483,6 +16568,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -16990,6 +17077,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -17685,7 +17774,15 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Sequence",
             "tardy": true,
             "skip": "${this.state.response_action != 'keydown(ArrowRight)' || this.state.ended_on == 'timeout'}",
@@ -17926,6 +18023,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -18494,6 +18593,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -19073,6 +19174,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -19641,6 +19744,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -20131,7 +20236,15 @@ this.state.response_action='test';
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0102.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
@@ -20299,6 +20412,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -20867,6 +20982,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -21446,6 +21563,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -22013,6 +22132,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -22707,7 +22828,15 @@ this.parameters.outcome4flip=outcome4flip;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -22898,6 +23027,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -23404,6 +23535,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -23922,6 +24055,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -24428,6 +24563,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -25033,6 +25170,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -25539,6 +25678,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -26057,6 +26198,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -26563,6 +26706,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -26993,12 +27138,31 @@ this.state.response_action='test';
           "left": 0,
           "top": 0,
           "angle": 0,
-          "width": "748",
-          "height": "572",
+          "width": 1392,
+          "height": 822,
           "stroke": null,
           "strokeWidth": 0,
           "fill": "black",
-          "src": "${ this.files[\"quiz_q8.png\"] }"
+          "src": "${ this.files[\"break.png\"] }",
+          "autoScale": undefined
+        },
+        {
+          "type": "i-text",
+          "left": 0,
+          "top": 200,
+          "angle": 0,
+          "width": 471.39,
+          "height": 36.16,
+          "stroke": null,
+          "strokeWidth": 1,
+          "fill": "black",
+          "text": "Study will continue in 60 seconds",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": 32,
+          "fontFamily": "sans-serif",
+          "lineHeight": 1.16,
+          "textAlign": "center"
         }
       ],
       "viewport": [
@@ -27006,11 +27170,10 @@ this.state.response_action='test';
         600
       ],
       "files": {
-        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png"
+        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png",
+        "break.png": "embedded\u002F39e22225d74ac1ae9288dd3b31f55622163a57f68c64380be6a438191926218d.png"
       },
-      "responses": {
-        "keydown(ArrowRight)": ""
-      },
+      "responses": {},
       "parameters": {},
       "messageHandlers": {},
       "title": "Break",
@@ -27288,7 +27451,15 @@ this.parameters.outcome4flip=outcome4flip;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -27479,6 +27650,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -27985,6 +28158,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -28503,6 +28678,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -29009,6 +29186,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -29614,6 +29793,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -30120,6 +30301,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -30638,6 +30821,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -31144,6 +31329,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -31827,7 +32014,15 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -32079,6 +32274,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -32646,6 +32843,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -33225,6 +33424,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -33792,6 +33993,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -34450,6 +34653,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -35017,6 +35222,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -35596,6 +35803,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -36163,6 +36372,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -36857,7 +37068,15 @@ this.parameters.outcome4flip=outcome4flip;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -37048,6 +37267,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -37554,6 +37775,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -38072,6 +38295,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -38578,6 +38803,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -39183,6 +39410,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -39689,6 +39918,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -40207,6 +40438,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -40713,6 +40946,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -41396,7 +41631,15 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -41648,6 +41891,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -42215,6 +42460,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -42794,6 +43041,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -43361,6 +43610,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -44019,6 +44270,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -44586,6 +44839,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -45165,6 +45420,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -45732,6 +45989,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -46159,15 +46418,34 @@ this.state.response_action='test';
       "content": [
         {
           "type": "image",
-          "left": 0,
-          "top": 0,
+          "left": "0",
+          "top": "0",
           "angle": 0,
-          "width": "748",
-          "height": "572",
+          "width": 1392,
+          "height": 822,
           "stroke": null,
           "strokeWidth": 0,
           "fill": "black",
-          "src": "${ this.files[\"quiz_q8.png\"] }"
+          "src": "${ this.files[\"break.png\"] }",
+          "autoScale": undefined
+        },
+        {
+          "type": "i-text",
+          "left": 0,
+          "top": 200,
+          "angle": 0,
+          "width": 471.39,
+          "height": 36.16,
+          "stroke": null,
+          "strokeWidth": 1,
+          "fill": "black",
+          "text": "Study will continue in 60 seconds",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "fontSize": 32,
+          "fontFamily": "sans-serif",
+          "lineHeight": 1.16,
+          "textAlign": "center"
         }
       ],
       "viewport": [
@@ -46175,11 +46453,10 @@ this.state.response_action='test';
         600
       ],
       "files": {
-        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png"
+        "quiz_q8.png": "embedded\u002Fd1b9a4a0e8701497e768e032ac815f161aab5181ff74c238a2064de4b0076caf.png",
+        "break.png": "embedded\u002F39e22225d74ac1ae9288dd3b31f55622163a57f68c64380be6a438191926218d.png"
       },
-      "responses": {
-        "keydown(ArrowRight)": ""
-      },
+      "responses": {},
       "parameters": {},
       "messageHandlers": {},
       "title": "Break",
@@ -46446,7 +46723,15 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -46698,6 +46983,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -47265,6 +47552,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -47844,6 +48133,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -48411,6 +48702,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -49069,6 +49362,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -49636,6 +49931,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -50215,6 +50512,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -50782,6 +51081,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -51476,7 +51777,15 @@ this.parameters.outcome4flip=outcome4flip;
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -51667,6 +51976,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -52173,6 +52484,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -52691,6 +53004,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -53197,6 +53512,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -53802,6 +54119,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -54308,6 +54627,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -54826,6 +55147,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -55332,6 +55655,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -56016,7 +56341,15 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
             "files": {},
             "responses": {},
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "run": function anonymous(
+) {
+this.parameters.firstresponse='0';
+this.parameters.stage2='0';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
+}
+            },
             "title": "Too slow",
             "skip": "${this.state.ended_on != 'timeout'}",
             "timeout": "2000",
@@ -56268,6 +56601,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -56835,6 +57170,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -57414,6 +57751,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -57981,6 +58320,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -58471,7 +58812,15 @@ this.state.response_action='test';
                     },
                     "responses": {},
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0102.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
@@ -58639,6 +58988,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -59206,6 +59557,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -59785,6 +60138,8 @@ this.parameters.stage2=1;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -60352,6 +60707,8 @@ this.parameters.stage2=2;
                               "run": function anonymous(
 ) {
 this.state.response_action='test';
+this.parameters.secondresponse='0';
+this.parameters.trialoutcome='0';
 }
                             },
                             "title": "Too slow",
@@ -61098,12 +61455,12 @@ this.state.response_action='test';
           "left": 0,
           "top": 0,
           "angle": 0,
-          "width": 501.56,
-          "height": 287.83,
+          "width": 787.92,
+          "height": 371.72,
           "stroke": null,
           "strokeWidth": 1,
           "fill": "black",
-          "text": "You are finished. Thank you!\n\n\n\n\n\nPlease press the right arrow to exit.",
+          "text": "You are finished. Thank you!\n\n\n\nPlease press the right arrow to get a link back to Prolific\n\n\n\nPlease be patient this could take a few minutes",
           "fontStyle": "normal",
           "fontWeight": "normal",
           "fontSize": 32,
