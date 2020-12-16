@@ -559,7 +559,7 @@ this.state.trialnum=0;
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "1"
+        "n": "11"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -5735,7 +5735,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "1"
+        "n": "11"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
