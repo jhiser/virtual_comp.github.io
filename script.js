@@ -559,7 +559,7 @@ this.state.trialnum=0;
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -5735,7 +5735,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "11"
+        "n": "1"
       },
       "files": {
         "tibetan.0708.png": "embedded\u002Ff73fb4d171c9eb9424379df18ce0290e8f8a34d6127cfa62d38bbd743ce91a7e.png",
@@ -12939,7 +12939,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -17517,7 +17517,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -22572,7 +22572,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "30"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -27195,7 +27195,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "10"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -31769,7 +31769,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -36812,7 +36812,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -41386,7 +41386,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "20"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -46478,7 +46478,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "20"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -51521,7 +51521,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
@@ -56095,7 +56095,7 @@ this.state.response_action='test';
       ],
       "sample": {
         "mode": "draw-replace",
-        "n": "40"
+        "n": "1"
       },
       "files": {
         "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png",
