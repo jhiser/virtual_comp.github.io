@@ -20,12 +20,15 @@ const study = lab.util.fromObject({
   },
   "parameters": {},
   "files": {},
+  "messageHandlers": {},
   "responses": {},
   "content": [
     {
       "type": "lab.flow.Sequence",
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -569,7 +572,9 @@ this.state.trialnum=0;
         "tibetan.1112.png": "embedded\u002Fc58b0324edf2a81841e653f0d9bbefe0f6f12d41f7380b81e8c9bb1744496cd4.png",
         "tibetan.1211.png": "embedded\u002Fdcfc135a37c1027233febeb0a55439bb48cf4c9413dbf55372c419f3e4ea085e.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Tutorial",
@@ -577,7 +582,9 @@ this.state.trialnum=0;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -706,7 +713,9 @@ this.parameters.random_prob2 = random_prob2;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -725,7 +734,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -735,7 +746,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -788,7 +801,9 @@ this.parameters.trialoutcome='0';
                       "carpets_tutorial.png": "embedded\u002Fb85cfafadd93732c225d85676ea12eb4c14f4911e18e638aae52a21a6d58e508.png",
                       "right_carpet_destination.png": "embedded\u002F936bbfb30c0d23798a0e2eeb6216ae7da927b152235309ec9306ba3acf54d27c.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -805,7 +820,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -854,7 +871,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "one.png": "embedded\u002F7fddc88b8eb390808152ea46e57d07e39d5c00c40c9aecbab549b31dccda3c8a.png",
                           "two.png": "embedded\u002Fc70e8df24ce6e43baf95acd3efb01c48c5f344df1dc29f285b83bce3f2c3ebe3.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "right_mountain_outcome_common",
@@ -863,7 +882,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -978,7 +999,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -996,7 +1019,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -1006,7 +1031,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -1141,7 +1168,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -1195,7 +1224,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -1212,7 +1243,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -1222,7 +1255,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -1296,7 +1331,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -1356,7 +1393,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -1410,7 +1449,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -1433,7 +1474,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -1549,7 +1592,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -1567,7 +1612,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -1577,7 +1624,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -1713,7 +1762,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -1767,7 +1818,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -1784,7 +1837,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -1794,7 +1849,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -1869,7 +1926,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -1929,7 +1988,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -1983,7 +2044,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -2008,7 +2071,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -2057,7 +2122,9 @@ this.state.response_action='test';
                           "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
                           "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "right_mountain_outcome_uncommon",
@@ -2066,7 +2133,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -2169,7 +2238,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -2187,7 +2258,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -2197,7 +2270,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -2332,7 +2407,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -2386,7 +2463,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -2403,7 +2482,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -2413,7 +2494,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -2487,7 +2570,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -2547,7 +2632,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -2601,7 +2688,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -2624,7 +2713,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -2740,7 +2831,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -2758,7 +2851,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -2768,7 +2863,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -2904,7 +3001,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -2958,7 +3057,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -2975,7 +3076,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -2985,7 +3088,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -3060,7 +3165,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3120,7 +3227,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3174,7 +3283,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3203,7 +3314,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -3213,7 +3326,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -3268,7 +3383,9 @@ this.state.response_action='test';
                       "left_carpet_selected.png": "embedded\u002F1ed5e1018a2ebd8b0e1076f272c1bfe3224ab1425ee015a4d0c5c15016b9ee7a.png",
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -3285,7 +3402,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -3334,7 +3453,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "one.png": "embedded\u002Fc70e8df24ce6e43baf95acd3efb01c48c5f344df1dc29f285b83bce3f2c3ebe3.png",
                           "two.png": "embedded\u002F7fddc88b8eb390808152ea46e57d07e39d5c00c40c9aecbab549b31dccda3c8a.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "left_mountain_outcome_common",
@@ -3343,7 +3464,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -3458,7 +3581,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -3476,7 +3601,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -3486,7 +3613,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -3621,7 +3750,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -3675,7 +3806,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -3692,7 +3825,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -3702,7 +3837,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -3776,7 +3913,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3836,7 +3975,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3890,7 +4031,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -3913,7 +4056,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -4023,7 +4168,9 @@ this.state.response_action='test';
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -4041,7 +4188,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -4051,7 +4200,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -4187,7 +4338,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -4241,7 +4394,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -4258,7 +4413,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -4268,7 +4425,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -4343,7 +4502,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -4403,7 +4564,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -4457,7 +4620,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -4482,7 +4647,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -4531,7 +4698,9 @@ this.state.response_action='test';
                           "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
                           "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "left_mountain_outcome_uncommon",
@@ -4540,7 +4709,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -4655,7 +4826,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -4673,7 +4846,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -4683,7 +4858,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -4818,7 +4995,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -4872,7 +5051,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -4889,7 +5070,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -4899,7 +5082,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -4973,7 +5158,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5033,7 +5220,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5087,7 +5276,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5110,7 +5301,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -5226,7 +5419,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -5244,7 +5439,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -5254,7 +5451,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -5390,7 +5589,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -5444,7 +5645,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -5461,7 +5664,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -5471,7 +5676,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -5546,7 +5753,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5606,7 +5815,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5660,7 +5871,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -5745,7 +5958,9 @@ this.state.response_action='test';
         "tibetan.1112.png": "embedded\u002Fc58b0324edf2a81841e653f0d9bbefe0f6f12d41f7380b81e8c9bb1744496cd4.png",
         "tibetan.1211.png": "embedded\u002Fdcfc135a37c1027233febeb0a55439bb48cf4c9413dbf55372c419f3e4ea085e.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Tutorial_w\u002Fpic",
@@ -5753,7 +5968,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -5885,7 +6102,9 @@ this.parameters.random_prob2 = random_prob2;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -5904,7 +6123,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -5914,7 +6135,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -5967,7 +6190,9 @@ this.parameters.trialoutcome='0';
                       "carpets_tutorial.png": "embedded\u002Fb85cfafadd93732c225d85676ea12eb4c14f4911e18e638aae52a21a6d58e508.png",
                       "right_carpet_destination.png": "embedded\u002F936bbfb30c0d23798a0e2eeb6216ae7da927b152235309ec9306ba3acf54d27c.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -5984,7 +6209,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -6033,7 +6260,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "one.png": "embedded\u002F7fddc88b8eb390808152ea46e57d07e39d5c00c40c9aecbab549b31dccda3c8a.png",
                           "two.png": "embedded\u002Fc70e8df24ce6e43baf95acd3efb01c48c5f344df1dc29f285b83bce3f2c3ebe3.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "right_mountain_outcome_common",
@@ -6072,7 +6301,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "7224.JPG": "embedded\u002Faf2ac159fc4e25d36965dafca57469789ab52590a576b2fdd55add291e35552b.jpg",
                           "7235.JPG": "embedded\u002Ff27945576e984be364894fa59548c5b2a45ab411a3c1e34e74b20978651af6b7.jpg"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {
                           "before:prepare": function anonymous(
@@ -6086,7 +6317,9 @@ this.parameters.imageshown=this.parameters.random_neu_img;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -6201,7 +6434,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -6219,7 +6454,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -6229,7 +6466,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -6365,7 +6604,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -6419,7 +6660,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -6436,7 +6679,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -6446,7 +6691,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -6520,7 +6767,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -6581,7 +6830,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -6635,7 +6886,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -6658,7 +6911,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -6768,7 +7023,9 @@ this.state.response_action='test';
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -6786,7 +7043,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -6796,7 +7055,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -6933,7 +7194,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -6987,7 +7250,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -7004,7 +7269,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -7014,7 +7281,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -7089,7 +7358,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -7149,7 +7420,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -7203,7 +7476,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -7228,7 +7503,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -7277,7 +7554,9 @@ this.state.response_action='test';
                           "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
                           "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "right_mountain_outcome_uncommon",
@@ -7316,7 +7595,9 @@ this.state.response_action='test';
                           "7224.JPG": "embedded\u002Faf2ac159fc4e25d36965dafca57469789ab52590a576b2fdd55add291e35552b.jpg",
                           "7235.JPG": "embedded\u002Ff27945576e984be364894fa59548c5b2a45ab411a3c1e34e74b20978651af6b7.jpg"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {
                           "before:prepare": function anonymous(
@@ -7330,7 +7611,9 @@ this.parameters.imageshown=this.parameters.random_neu_img;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -7445,7 +7728,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -7463,7 +7748,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -7473,7 +7760,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -7609,7 +7898,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -7663,7 +7954,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -7680,7 +7973,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -7690,7 +7985,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -7764,7 +8061,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -7825,7 +8124,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -7879,7 +8180,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -7902,7 +8205,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -8018,7 +8323,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -8036,7 +8343,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -8046,7 +8355,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -8182,7 +8493,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -8236,7 +8549,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -8253,7 +8568,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -8263,7 +8580,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -8338,7 +8657,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -8398,7 +8719,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -8452,7 +8775,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -8481,7 +8806,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -8491,7 +8818,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -8546,7 +8875,9 @@ this.state.response_action='test';
                       "left_carpet_selected.png": "embedded\u002F1ed5e1018a2ebd8b0e1076f272c1bfe3224ab1425ee015a4d0c5c15016b9ee7a.png",
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -8563,7 +8894,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -8612,7 +8945,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "one.png": "embedded\u002Fc70e8df24ce6e43baf95acd3efb01c48c5f344df1dc29f285b83bce3f2c3ebe3.png",
                           "two.png": "embedded\u002F7fddc88b8eb390808152ea46e57d07e39d5c00c40c9aecbab549b31dccda3c8a.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "left_mountain_outcome_common",
@@ -8651,7 +8986,9 @@ if(this.parameters.carpet=='tibetan.0708.png'){
                           "7224.JPG": "embedded\u002Faf2ac159fc4e25d36965dafca57469789ab52590a576b2fdd55add291e35552b.jpg",
                           "7235.JPG": "embedded\u002Ff27945576e984be364894fa59548c5b2a45ab411a3c1e34e74b20978651af6b7.jpg"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {
                           "before:prepare": function anonymous(
@@ -8665,7 +9002,9 @@ this.parameters.imageshown=this.parameters.random_neu_img;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -8780,7 +9119,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -8798,7 +9139,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -8808,7 +9151,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -8944,7 +9289,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -8998,7 +9345,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -9015,7 +9364,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -9025,7 +9376,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -9099,7 +9452,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -9160,7 +9515,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -9214,7 +9571,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -9237,7 +9596,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -9353,7 +9714,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -9371,7 +9734,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -9381,7 +9746,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -9517,7 +9884,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -9571,7 +9940,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -9588,7 +9959,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -9598,7 +9971,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -9673,7 +10048,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -9733,7 +10110,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -9787,7 +10166,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -9812,7 +10193,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -9861,7 +10244,9 @@ this.state.response_action='test';
                           "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
                           "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "left_mountain_outcome_uncommon",
@@ -9900,7 +10285,9 @@ this.state.response_action='test';
                           "7224.JPG": "embedded\u002Faf2ac159fc4e25d36965dafca57469789ab52590a576b2fdd55add291e35552b.jpg",
                           "7235.JPG": "embedded\u002Ff27945576e984be364894fa59548c5b2a45ab411a3c1e34e74b20978651af6b7.jpg"
                         },
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {
                           "before:prepare": function anonymous(
@@ -9914,7 +10301,9 @@ this.parameters.imageshown=this.parameters.random_neu_img;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -10029,7 +10418,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -10047,7 +10438,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -10057,7 +10450,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -10193,7 +10588,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -10247,7 +10644,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -10264,7 +10663,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -10274,7 +10675,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -10348,7 +10751,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -10409,7 +10814,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -10463,7 +10870,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -10486,7 +10895,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -10602,7 +11013,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -10620,7 +11033,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -10630,7 +11045,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -10767,7 +11184,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -10821,7 +11240,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -10838,7 +11259,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -10848,7 +11271,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -10923,7 +11348,9 @@ this.state.response_action='test';
                                           "left_lamp_selected.png": "embedded\u002F85c20fd70b05ec0b2f4ad8bf1f8d2df0289643cca15bcf8e96e9c882e1d41ba3.png",
                                           "lamps_black.png": "embedded\u002F2a405325b11abe212f98747964ab58ab67ea9e440eabd0458f30f1c221ea2a35.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -10983,7 +11410,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -11037,7 +11466,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -11069,7 +11500,9 @@ this.state.response_action='test';
     {
       "type": "lab.flow.Sequence",
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Quiz",
@@ -11372,7 +11805,9 @@ this.state.response_action='test';
     {
       "type": "lab.flow.Sequence",
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_inst",
@@ -11889,7 +12324,9 @@ this.state.response_action='test';
     {
       "type": "lab.flow.Sequence",
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_inst",
@@ -12408,7 +12845,9 @@ this.state.response_action='test';
     {
       "type": "lab.flow.Sequence",
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_inst",
@@ -12949,7 +13388,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -12966,7 +13407,9 @@ this.parameters.prob4=70;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -13193,7 +13636,9 @@ this.parameters.outcome4flip=outcome4flip;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -13212,7 +13657,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -13222,7 +13669,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -13277,7 +13726,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -13294,7 +13745,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -13303,7 +13756,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -13388,7 +13843,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -13406,7 +13863,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -13416,7 +13875,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -13533,7 +13994,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -13588,7 +14051,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -13606,7 +14071,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -13616,7 +14083,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -13673,7 +14142,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -13733,7 +14204,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -13788,7 +14261,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -13812,7 +14287,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -13897,7 +14374,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -13915,7 +14394,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -13925,7 +14406,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -14042,7 +14525,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -14097,7 +14582,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -14115,7 +14602,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -14125,7 +14614,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -14182,7 +14673,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -14242,7 +14735,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -14297,7 +14792,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -14323,7 +14820,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -14332,7 +14831,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -14417,7 +14918,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -14435,7 +14938,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -14445,7 +14950,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -14562,7 +15069,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -14617,7 +15126,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -14635,7 +15146,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -14645,7 +15158,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -14702,7 +15217,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -14762,7 +15279,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -14817,7 +15336,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -14841,7 +15362,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -14926,7 +15449,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -14944,7 +15469,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -14954,7 +15481,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -15071,7 +15600,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -15126,7 +15657,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -15144,7 +15677,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -15154,7 +15689,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -15211,7 +15748,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -15271,7 +15810,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -15326,7 +15867,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -15356,7 +15899,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -15366,7 +15911,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -15422,7 +15969,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -15439,7 +15988,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -15448,7 +15999,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -15533,7 +16086,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -15551,7 +16106,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -15561,7 +16118,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -15678,7 +16237,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -15733,7 +16294,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -15751,7 +16314,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -15761,7 +16326,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -15818,7 +16385,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -15878,7 +16447,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -15933,7 +16504,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -15957,7 +16530,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -16042,7 +16617,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -16060,7 +16637,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -16070,7 +16649,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -16187,7 +16768,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -16242,7 +16825,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -16260,7 +16845,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -16270,7 +16857,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -16327,7 +16916,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -16387,7 +16978,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -16442,7 +17035,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -16468,7 +17063,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -16477,7 +17074,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -16562,7 +17161,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -16580,7 +17181,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -16590,7 +17193,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -16707,7 +17312,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -16762,7 +17369,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -16780,7 +17389,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -16790,7 +17401,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -16847,7 +17460,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -16907,7 +17522,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -16962,7 +17579,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -16986,7 +17605,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -17071,7 +17692,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -17089,7 +17712,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -17099,7 +17724,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -17216,7 +17843,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -17271,7 +17900,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -17289,7 +17920,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -17299,7 +17932,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -17356,7 +17991,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -17416,7 +18053,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -17471,7 +18110,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -17527,7 +18168,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_block2",
@@ -17535,7 +18178,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -17761,18 +18406,9 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
               600
             ],
             "files": {},
-            "responses": {},
-            "parameters": {},
-            "messageHandlers": {},
-            "title": "Too slow",
-            "skip": "${this.state.ended_on != 'timeout'}",
-            "timeout": "2000",
-            "tardy": true
-          },
-          {
-            "type": "lab.flow.Sequence",
-            "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -17783,6 +18419,19 @@ this.parameters.secondresponse='0';
 this.parameters.trialoutcome='0';
 }
             },
+            "title": "Too slow",
+            "skip": "${this.state.ended_on != 'timeout'}",
+            "timeout": "2000",
+            "tardy": true
+          },
+          {
+            "type": "lab.flow.Sequence",
+            "files": {},
+            "responses": {
+              "": ""
+            },
+            "parameters": {},
+            "messageHandlers": {},
             "title": "Sequence",
             "tardy": true,
             "skip": "${this.state.response_action != 'keydown(ArrowRight)' || this.state.ended_on == 'timeout'}",
@@ -17790,7 +18439,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -17845,7 +18496,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -17862,7 +18515,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -17871,7 +18526,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -17927,7 +18584,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -18017,7 +18676,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -18035,7 +18696,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -18045,7 +18708,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -18162,7 +18827,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -18217,7 +18884,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -18235,7 +18904,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -18245,7 +18916,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -18302,7 +18975,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -18362,10 +19037,12 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
-                                          "before:prepare": function anonymous(
+                                          "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -18417,10 +19094,12 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
-                                          "before:prepare": function anonymous(
+                                          "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -18441,7 +19120,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -18497,7 +19178,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -18587,7 +19270,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -18605,7 +19290,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -18615,7 +19302,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -18732,7 +19421,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -18787,7 +19478,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -18805,7 +19498,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -18815,7 +19510,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -18872,7 +19569,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -18932,13 +19631,15 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome1",
@@ -18987,13 +19688,15 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome2",
@@ -19013,7 +19716,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -19022,7 +19727,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -19078,7 +19785,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -19168,7 +19877,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -19186,7 +19897,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -19196,7 +19909,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -19313,7 +20028,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -19368,7 +20085,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -19386,7 +20105,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -19396,7 +20117,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -19453,7 +20176,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -19513,7 +20238,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -19568,7 +20295,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -19592,7 +20321,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -19648,7 +20379,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -19738,7 +20471,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -19756,7 +20491,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -19766,7 +20503,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -19883,7 +20622,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -19938,7 +20679,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -19956,7 +20699,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -19966,7 +20711,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -20023,7 +20770,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -20083,7 +20832,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -20138,7 +20889,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -20168,7 +20921,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -20178,7 +20933,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -20234,7 +20991,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -20251,7 +21010,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -20260,7 +21021,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -20316,7 +21079,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -20406,7 +21171,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -20424,7 +21191,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -20434,7 +21203,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -20551,7 +21322,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -20606,7 +21379,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -20624,7 +21399,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -20634,7 +21411,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -20691,7 +21470,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -20751,7 +21532,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -20806,7 +21589,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -20830,7 +21615,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -20886,7 +21673,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -20976,7 +21765,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -20994,7 +21785,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -21004,7 +21797,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -21121,7 +21916,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -21176,7 +21973,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -21194,7 +21993,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -21204,7 +22005,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -21261,7 +22064,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -21321,7 +22126,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -21376,7 +22183,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -21402,7 +22211,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -21411,7 +22222,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -21467,7 +22280,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -21557,7 +22372,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -21575,7 +22392,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -21585,7 +22404,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -21702,7 +22523,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -21757,7 +22580,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -21775,7 +22600,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -21785,7 +22612,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -21841,7 +22670,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -21901,7 +22732,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -21956,7 +22789,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -21980,7 +22815,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -22036,7 +22873,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -22126,7 +22965,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -22144,7 +22985,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -22154,7 +22997,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -22271,7 +23116,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -22326,7 +23173,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -22344,7 +23193,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -22354,7 +23205,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -22411,7 +23264,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -22471,7 +23326,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -22526,7 +23383,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -22582,7 +23441,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -22599,7 +23460,9 @@ this.parameters.prob4=70;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -22826,7 +23689,9 @@ this.parameters.outcome4flip=outcome4flip;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -22845,7 +23710,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -22855,7 +23722,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -22910,7 +23779,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -22927,7 +23798,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -22936,7 +23809,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -23021,7 +23896,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -23039,7 +23916,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -23049,7 +23928,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -23166,7 +24047,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -23221,7 +24104,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -23239,7 +24124,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -23249,7 +24136,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -23305,7 +24194,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -23365,7 +24256,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -23420,7 +24313,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -23444,7 +24339,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -23529,7 +24426,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -23547,7 +24446,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -23557,7 +24458,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -23674,7 +24577,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -23729,7 +24634,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -23747,7 +24654,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -23757,7 +24666,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -23814,7 +24725,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -23874,7 +24787,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -23929,7 +24844,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -23955,7 +24872,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -23964,7 +24883,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -24049,7 +24970,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -24067,7 +24990,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -24077,7 +25002,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -24194,7 +25121,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -24249,7 +25178,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -24267,7 +25198,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -24277,7 +25210,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -24333,7 +25268,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -24393,7 +25330,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -24448,7 +25387,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -24472,7 +25413,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -24557,7 +25500,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -24575,7 +25520,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -24585,7 +25532,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -24702,7 +25651,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -24757,7 +25708,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -24775,7 +25728,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -24785,7 +25740,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -24842,7 +25799,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -24902,7 +25861,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -24957,7 +25918,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -24987,7 +25950,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -24997,7 +25962,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -25053,7 +26020,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -25070,7 +26039,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -25079,7 +26050,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -25164,7 +26137,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -25182,7 +26157,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -25192,7 +26169,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -25309,7 +26288,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -25364,7 +26345,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -25382,7 +26365,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -25392,7 +26377,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -25448,7 +26435,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -25508,7 +26497,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -25563,7 +26554,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -25587,7 +26580,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -25672,7 +26667,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -25690,7 +26687,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -25700,7 +26699,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -25817,7 +26818,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -25872,7 +26875,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -25890,7 +26895,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -25900,7 +26907,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -25957,7 +26966,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -26017,7 +27028,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -26072,7 +27085,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -26098,7 +27113,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -26107,7 +27124,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -26192,7 +27211,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -26210,7 +27231,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -26220,7 +27243,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -26337,7 +27362,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -26392,7 +27419,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -26410,7 +27439,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -26420,7 +27451,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -26476,7 +27509,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -26536,7 +27571,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -26591,7 +27628,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -26615,7 +27654,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -26700,7 +27741,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -26718,7 +27761,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -26728,7 +27773,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -26845,7 +27892,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -26900,7 +27949,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -26918,7 +27969,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -26928,7 +27981,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -26985,7 +28040,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -27045,7 +28102,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -27100,7 +28159,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -27205,7 +28266,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -27222,7 +28285,9 @@ this.parameters.prob4=70;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -27449,7 +28514,9 @@ this.parameters.outcome4flip=outcome4flip;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -27468,7 +28535,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -27478,7 +28547,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -27533,7 +28604,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -27550,7 +28623,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -27559,7 +28634,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -27644,7 +28721,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -27662,7 +28741,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -27672,7 +28753,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -27789,7 +28872,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -27844,7 +28929,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -27862,7 +28949,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -27872,7 +28961,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -27928,7 +29019,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -27988,7 +29081,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -28043,7 +29138,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -28067,7 +29164,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -28152,7 +29251,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -28170,7 +29271,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -28180,7 +29283,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -28297,7 +29402,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -28352,7 +29459,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -28370,7 +29479,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -28380,7 +29491,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -28437,7 +29550,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -28497,7 +29612,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -28552,7 +29669,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -28578,7 +29697,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -28587,7 +29708,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -28672,7 +29795,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -28690,7 +29815,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -28700,7 +29827,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -28817,7 +29946,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -28872,7 +30003,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -28890,7 +30023,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -28900,7 +30035,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -28956,7 +30093,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -29016,7 +30155,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -29071,7 +30212,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -29095,7 +30238,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -29180,7 +30325,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -29198,7 +30345,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -29208,7 +30357,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -29325,7 +30476,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -29380,7 +30533,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -29398,7 +30553,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -29408,7 +30565,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -29465,7 +30624,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -29525,7 +30686,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -29580,7 +30743,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -29610,7 +30775,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -29620,7 +30787,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -29676,7 +30845,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -29693,7 +30864,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -29702,7 +30875,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -29787,7 +30962,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -29805,7 +30982,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -29815,7 +30994,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -29932,7 +31113,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -29987,7 +31170,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -30005,7 +31190,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -30015,7 +31202,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -30071,7 +31260,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -30131,7 +31322,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -30186,7 +31379,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -30210,7 +31405,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -30295,7 +31492,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -30313,7 +31512,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -30323,7 +31524,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -30440,7 +31643,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -30495,7 +31700,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -30513,7 +31720,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -30523,7 +31732,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -30580,7 +31791,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -30640,7 +31853,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -30695,7 +31910,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -30721,7 +31938,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -30730,7 +31949,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -30815,7 +32036,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -30833,7 +32056,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -30843,7 +32068,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -30960,7 +32187,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -31015,7 +32244,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -31033,7 +32264,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -31043,7 +32276,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -31099,7 +32334,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -31159,7 +32396,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -31214,7 +32453,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -31238,7 +32479,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -31323,7 +32566,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -31341,7 +32586,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -31351,7 +32598,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -31468,7 +32717,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -31523,7 +32774,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -31541,7 +32794,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -31551,7 +32806,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -31608,7 +32865,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -31668,7 +32927,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -31723,7 +32984,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -31779,7 +33042,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_block4",
@@ -31787,7 +33052,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -32012,7 +33279,9 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -32031,7 +33300,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -32041,7 +33312,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -32096,7 +33369,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -32113,7 +33388,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -32122,7 +33399,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -32178,7 +33457,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -32268,7 +33549,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -32286,7 +33569,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -32296,7 +33581,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -32413,7 +33700,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -32468,7 +33757,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -32486,7 +33777,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -32496,7 +33789,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -32552,7 +33847,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -32612,7 +33909,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -32667,7 +33966,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -32691,7 +33992,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -32747,7 +34050,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -32837,7 +34142,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -32855,7 +34162,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -32865,7 +34174,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -32982,7 +34293,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -33037,7 +34350,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -33055,7 +34370,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -33065,7 +34382,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -33122,7 +34441,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -33182,13 +34503,15 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome1",
@@ -33237,13 +34560,15 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome2",
@@ -33263,7 +34588,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -33272,7 +34599,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -33328,7 +34657,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -33418,7 +34749,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -33436,7 +34769,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -33446,7 +34781,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -33563,7 +34900,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -33618,7 +34957,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -33636,7 +34977,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -33646,7 +34989,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -33702,7 +35047,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -33762,7 +35109,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -33817,7 +35166,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -33841,7 +35192,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -33897,7 +35250,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -33987,7 +35342,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -34005,7 +35362,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -34015,7 +35374,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -34132,7 +35493,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -34187,7 +35550,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -34205,7 +35570,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -34215,7 +35582,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -34272,7 +35641,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -34332,7 +35703,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -34387,7 +35760,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -34417,7 +35792,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -34427,7 +35804,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -34483,16 +35862,28 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0102.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -34501,7 +35892,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -34557,7 +35950,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -34647,7 +36042,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -34665,7 +36062,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -34675,7 +36074,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -34792,7 +36193,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -34847,7 +36250,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -34865,7 +36270,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -34875,7 +36282,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -34931,7 +36340,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -34991,7 +36402,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -35046,7 +36459,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -35070,7 +36485,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -35126,7 +36543,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -35216,7 +36635,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -35234,7 +36655,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -35244,7 +36667,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -35361,7 +36786,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -35416,7 +36843,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -35434,7 +36863,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -35444,7 +36875,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -35501,7 +36934,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -35561,7 +36996,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -35616,7 +37053,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -35642,7 +37081,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -35651,7 +37092,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -35707,7 +37150,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -35797,7 +37242,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -35815,7 +37262,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -35825,7 +37274,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -35942,7 +37393,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -35997,7 +37450,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -36015,7 +37470,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -36025,7 +37482,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -36081,7 +37540,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -36141,7 +37602,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -36196,7 +37659,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -36220,7 +37685,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -36276,7 +37743,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -36366,7 +37835,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -36384,7 +37855,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -36394,7 +37867,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -36511,7 +37986,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -36566,7 +38043,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -36584,7 +38063,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -36594,7 +38075,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -36651,7 +38134,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -36711,7 +38196,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -36766,7 +38253,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -36822,7 +38311,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -36839,7 +38330,9 @@ this.parameters.prob4=70;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -37066,7 +38559,9 @@ this.parameters.outcome4flip=outcome4flip;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -37085,7 +38580,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -37095,7 +38592,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -37150,7 +38649,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -37167,7 +38668,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -37176,7 +38679,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -37261,7 +38766,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -37279,7 +38786,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -37289,7 +38798,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -37406,7 +38917,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -37461,7 +38974,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -37479,7 +38994,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -37489,7 +39006,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -37545,7 +39064,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -37605,7 +39126,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -37660,7 +39183,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -37684,7 +39209,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -37769,7 +39296,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -37787,7 +39316,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -37797,7 +39328,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -37914,7 +39447,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -37969,7 +39504,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -37987,7 +39524,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -37997,7 +39536,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -38054,7 +39595,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -38114,7 +39657,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -38169,7 +39714,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -38195,7 +39742,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -38204,7 +39753,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -38289,7 +39840,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -38307,7 +39860,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -38317,7 +39872,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -38434,7 +39991,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -38489,7 +40048,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -38507,7 +40068,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -38517,7 +40080,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -38573,7 +40138,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -38633,7 +40200,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -38688,7 +40257,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -38712,7 +40283,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -38797,7 +40370,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -38815,7 +40390,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -38825,7 +40402,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -38942,7 +40521,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -38997,7 +40578,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -39015,7 +40598,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -39025,7 +40610,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -39082,7 +40669,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -39142,7 +40731,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -39197,7 +40788,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -39227,7 +40820,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -39237,7 +40832,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -39293,7 +40890,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -39310,7 +40909,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -39319,7 +40920,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -39404,7 +41007,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -39422,7 +41027,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -39432,7 +41039,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -39549,7 +41158,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -39604,7 +41215,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -39622,7 +41235,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -39632,7 +41247,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -39688,7 +41305,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -39748,7 +41367,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -39803,7 +41424,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -39827,7 +41450,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -39912,7 +41537,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -39930,7 +41557,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -39940,7 +41569,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -40057,7 +41688,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -40112,7 +41745,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -40130,7 +41765,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -40140,7 +41777,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -40197,7 +41836,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -40257,7 +41898,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -40312,7 +41955,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -40338,7 +41983,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -40347,7 +41994,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -40432,7 +42081,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -40450,7 +42101,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -40460,7 +42113,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -40577,7 +42232,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -40632,7 +42289,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -40650,7 +42309,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -40660,7 +42321,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -40716,7 +42379,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -40776,7 +42441,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -40831,7 +42498,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -40855,7 +42524,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -40940,7 +42611,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -40958,7 +42631,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -40968,7 +42643,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -41085,7 +42762,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -41140,7 +42819,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -41158,7 +42839,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -41168,7 +42851,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -41225,7 +42910,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -41285,7 +42972,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -41340,7 +43029,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -41396,7 +43087,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_block6",
@@ -41404,7 +43097,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -41629,7 +43324,9 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -41648,7 +43345,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -41658,7 +43357,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -41713,7 +43414,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -41730,7 +43433,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -41739,7 +43444,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -41795,7 +43502,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -41885,7 +43594,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -41903,7 +43614,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -41913,7 +43626,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -42030,7 +43745,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -42085,7 +43802,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -42103,7 +43822,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -42113,7 +43834,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -42169,7 +43892,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -42229,7 +43954,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -42284,7 +44011,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -42308,7 +44037,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -42364,7 +44095,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -42454,7 +44187,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -42472,7 +44207,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -42482,7 +44219,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -42599,7 +44338,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -42654,7 +44395,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -42672,7 +44415,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -42682,7 +44427,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -42739,7 +44486,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -42799,13 +44548,15 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome1",
@@ -42854,13 +44605,15 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome2",
@@ -42880,7 +44633,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -42889,7 +44644,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -42945,7 +44702,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -43035,7 +44794,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -43053,7 +44814,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -43063,7 +44826,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -43180,7 +44945,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -43235,7 +45002,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -43253,7 +45022,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -43263,7 +45034,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -43319,7 +45092,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -43379,7 +45154,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -43434,7 +45211,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -43458,7 +45237,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -43514,7 +45295,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -43604,7 +45387,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -43622,7 +45407,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -43632,7 +45419,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -43749,7 +45538,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -43804,7 +45595,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -43822,7 +45615,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -43832,7 +45627,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -43889,7 +45686,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -43949,7 +45748,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -44004,7 +45805,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -44034,7 +45837,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -44044,7 +45849,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -44100,16 +45907,28 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0102.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -44118,7 +45937,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -44174,7 +45995,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -44264,7 +46087,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -44282,7 +46107,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -44292,7 +46119,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -44409,7 +46238,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -44464,7 +46295,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -44482,7 +46315,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -44492,7 +46327,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -44548,7 +46385,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -44608,7 +46447,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -44663,7 +46504,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -44687,7 +46530,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -44743,7 +46588,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -44833,7 +46680,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -44851,7 +46700,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -44861,7 +46712,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -44978,7 +46831,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -45033,7 +46888,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -45051,7 +46908,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -45061,7 +46920,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -45118,7 +46979,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -45178,7 +47041,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -45233,7 +47098,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -45259,7 +47126,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -45268,7 +47137,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -45324,7 +47195,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -45414,7 +47287,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -45432,7 +47307,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -45442,7 +47319,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -45559,7 +47438,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -45614,7 +47495,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -45632,7 +47515,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -45642,7 +47527,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -45698,7 +47585,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -45758,7 +47647,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -45813,7 +47704,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -45837,7 +47730,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -45893,7 +47788,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -45983,7 +47880,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -46001,7 +47900,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -46011,7 +47912,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -46128,7 +48031,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -46183,7 +48088,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -46201,7 +48108,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -46211,7 +48120,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -46268,7 +48179,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -46328,7 +48241,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -46383,7 +48298,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -46488,7 +48405,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_block6",
@@ -46496,7 +48415,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -46721,7 +48642,9 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -46740,7 +48663,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -46750,7 +48675,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -46805,7 +48732,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -46822,7 +48751,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -46831,7 +48762,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -46887,7 +48820,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -46977,7 +48912,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -46995,7 +48932,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -47005,7 +48944,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -47122,7 +49063,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -47177,7 +49120,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -47195,7 +49140,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -47205,7 +49152,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -47261,7 +49210,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -47321,7 +49272,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -47376,7 +49329,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -47400,7 +49355,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -47456,7 +49413,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -47546,7 +49505,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -47564,7 +49525,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -47574,7 +49537,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -47691,7 +49656,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -47746,7 +49713,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -47764,7 +49733,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -47774,7 +49745,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -47831,7 +49804,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -47891,13 +49866,15 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome1",
@@ -47946,13 +49923,15 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome2",
@@ -47972,7 +49951,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -47981,7 +49962,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -48037,7 +50020,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -48127,7 +50112,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -48145,7 +50132,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -48155,7 +50144,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -48272,7 +50263,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -48327,7 +50320,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -48345,7 +50340,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -48355,7 +50352,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -48411,7 +50410,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -48471,7 +50472,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -48526,7 +50529,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -48550,7 +50555,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -48606,7 +50613,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -48696,7 +50705,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -48714,7 +50725,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -48724,7 +50737,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -48841,7 +50856,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -48896,7 +50913,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -48914,7 +50933,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -48924,7 +50945,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -48981,7 +51004,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -49041,7 +51066,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -49096,7 +51123,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -49126,7 +51155,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -49136,7 +51167,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -49192,16 +51225,28 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
-                    "messageHandlers": {},
+                    "messageHandlers": {
+                      "end": function anonymous(
+) {
+if(this.parameters.carpet=='tibetan.0102.png'){
+  this.parameters.firstresponse='1'
+}else{
+  this.parameters.firstresponse='2'}
+}
+                    },
                     "title": "Left_selected",
                     "timeout": "1000"
                   },
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -49210,7 +51255,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -49266,7 +51313,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -49356,7 +51405,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -49374,7 +51425,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -49384,7 +51437,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -49501,7 +51556,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -49556,7 +51613,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -49574,7 +51633,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -49584,7 +51645,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -49640,7 +51703,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -49700,7 +51765,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -49755,7 +51822,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -49779,7 +51848,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -49835,7 +51906,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -49925,7 +51998,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -49943,7 +52018,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -49953,7 +52030,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -50070,7 +52149,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -50125,7 +52206,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -50143,7 +52226,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -50153,7 +52238,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -50210,7 +52297,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -50270,7 +52359,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -50325,7 +52416,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -50351,7 +52444,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -50360,7 +52455,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -50416,7 +52513,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -50506,7 +52605,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -50524,7 +52625,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -50534,7 +52637,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -50651,7 +52756,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -50706,7 +52813,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -50724,7 +52833,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -50734,7 +52845,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -50790,7 +52903,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -50850,7 +52965,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -50905,7 +53022,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -50929,7 +53048,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -50985,7 +53106,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -51075,7 +53198,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -51093,7 +53218,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -51103,7 +53230,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -51220,7 +53349,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -51275,7 +53406,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -51293,7 +53426,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -51303,7 +53438,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -51360,7 +53497,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -51420,7 +53559,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -51475,7 +53616,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -51531,7 +53674,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {
         "before:prepare": function anonymous(
@@ -51548,7 +53693,9 @@ this.parameters.prob4=70;
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -51775,7 +53922,9 @@ this.parameters.outcome4flip=outcome4flip;
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -51794,7 +53943,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -51804,7 +53955,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -51859,7 +54012,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -51876,7 +54031,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -51885,7 +54042,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -51970,7 +54129,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -51988,7 +54149,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -51998,7 +54161,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -52115,7 +54280,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -52170,7 +54337,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -52188,7 +54357,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -52198,7 +54369,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -52254,7 +54427,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -52314,7 +54489,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -52369,7 +54546,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -52393,7 +54572,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -52478,7 +54659,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -52496,7 +54679,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -52506,7 +54691,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -52623,7 +54810,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -52678,7 +54867,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -52696,7 +54887,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -52706,7 +54899,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -52763,7 +54958,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -52823,7 +55020,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -52878,7 +55077,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -52904,7 +55105,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -52913,7 +55116,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -52998,7 +55203,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -53016,7 +55223,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -53026,7 +55235,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -53143,7 +55354,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -53198,7 +55411,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -53216,7 +55431,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -53226,7 +55443,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -53282,7 +55501,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -53342,7 +55563,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -53397,7 +55620,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -53421,7 +55646,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -53506,7 +55733,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -53524,7 +55753,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -53534,7 +55765,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -53651,7 +55884,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -53706,7 +55941,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -53724,7 +55961,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -53734,7 +55973,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -53791,7 +56032,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -53851,7 +56094,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -53906,7 +56151,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -53936,7 +56183,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -53946,7 +56195,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -54002,7 +56253,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -54019,7 +56272,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -54028,7 +56283,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -54113,7 +56370,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -54131,7 +56390,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -54141,7 +56402,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -54258,7 +56521,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -54313,7 +56578,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -54331,7 +56598,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -54341,7 +56610,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -54397,7 +56668,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -54457,7 +56730,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -54512,7 +56787,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -54536,7 +56813,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -54621,7 +56900,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -54639,7 +56920,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -54649,7 +56932,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -54766,7 +57051,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -54821,7 +57108,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -54839,7 +57128,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -54849,7 +57140,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -54906,7 +57199,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -54966,7 +57261,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -55021,7 +57318,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -55047,7 +57346,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -55056,7 +57357,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -55141,7 +57444,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -55159,7 +57464,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -55169,7 +57476,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -55286,7 +57595,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -55341,7 +57652,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -55359,7 +57672,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -55369,7 +57684,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -55425,7 +57742,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -55485,7 +57804,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -55540,7 +57861,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -55564,7 +57887,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -55649,7 +57974,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -55667,7 +57994,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -55677,7 +58006,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -55794,7 +58125,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -55849,7 +58182,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -55867,7 +58202,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -55877,7 +58214,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -55934,7 +58273,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -55994,7 +58335,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -56049,7 +58392,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -56105,7 +58450,9 @@ this.state.response_action='test';
         "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
         "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
       },
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Main_exp_block8",
@@ -56113,7 +58460,9 @@ this.state.response_action='test';
       "template": {
         "type": "lab.flow.Sequence",
         "files": {},
-        "responses": {},
+        "responses": {
+          "": ""
+        },
         "parameters": {},
         "messageHandlers": {
           "before:prepare": function anonymous(
@@ -56339,7 +58688,9 @@ else this.parameters.thisbimg=this.random.choice(neuimg)
               600
             ],
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {
               "run": function anonymous(
@@ -56358,7 +58709,9 @@ this.parameters.trialoutcome='0';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -56368,7 +58721,9 @@ this.parameters.trialoutcome='0';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Right_carpet_selected_sequence",
@@ -56423,7 +58778,9 @@ this.parameters.trialoutcome='0';
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png",
                       "tibetan.0102.png": "embedded\u002Fcdbf5c641310003e9d7c2f4a3bf1282f2c27968c0193089e3579e5777b0057ad.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -56440,7 +58797,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -56449,7 +58808,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -56505,7 +58866,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -56595,7 +58958,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -56613,7 +58978,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -56623,7 +58990,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -56740,7 +59109,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -56795,7 +59166,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -56813,7 +59186,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -56823,7 +59198,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -56879,7 +59256,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -56939,10 +59318,12 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
-                                          "before:prepare": function anonymous(
+                                          "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -56994,10 +59375,12 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
-                                          "before:prepare": function anonymous(
+                                          "end": function anonymous(
 ) {
 this.state.response_action='test';
 
@@ -57018,7 +59401,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -57074,7 +59459,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -57164,7 +59551,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -57182,7 +59571,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -57192,7 +59583,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -57309,7 +59702,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -57364,7 +59759,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -57382,7 +59779,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -57392,7 +59791,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -57449,7 +59850,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -57509,13 +59912,15 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome1",
@@ -57564,13 +59969,15 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
 ) {
 this.state.response_action='test';
-this.parameters.trialoutcome=this.state.this_lamp_prob;
+
 }
                                         },
                                         "title": "outcome2",
@@ -57590,7 +59997,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -57599,7 +60008,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -57655,7 +60066,9 @@ this.parameters.trialoutcome=this.state.this_lamp_prob;
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -57745,7 +60158,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -57763,7 +60178,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -57773,7 +60190,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -57890,7 +60309,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -57945,7 +60366,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -57963,7 +60386,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -57973,7 +60398,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -58029,7 +60456,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -58089,7 +60518,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -58144,7 +60575,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -58168,7 +60601,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -58224,7 +60659,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -58314,7 +60751,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -58332,7 +60771,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -58342,7 +60783,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -58459,7 +60902,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -58514,7 +60959,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -58532,7 +60979,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -58542,7 +60991,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -58599,7 +61050,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -58659,7 +61112,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -58714,7 +61169,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -58744,7 +61201,9 @@ this.state.response_action='test';
           {
             "type": "lab.flow.Sequence",
             "files": {},
-            "responses": {},
+            "responses": {
+              "": ""
+            },
             "parameters": {},
             "messageHandlers": {},
             "title": "Sequence",
@@ -58754,7 +61213,9 @@ this.state.response_action='test';
               {
                 "type": "lab.flow.Sequence",
                 "files": {},
-                "responses": {},
+                "responses": {
+                  "": ""
+                },
                 "parameters": {},
                 "messageHandlers": {},
                 "title": "Left_carpet_selected_sequence",
@@ -58810,7 +61271,9 @@ this.state.response_action='test';
                       "left_carpet_destination.png": "embedded\u002F47482aa944071bbf3055d7e3c9bc7557250bb163c5a3aee2fa4c4ab89a29c0a4.png",
                       "carpets.png": "embedded\u002Fb20a80dd1ea3345ef45dee71ba5c5779a73e71c2216fdda0149e63094d8fa666.png"
                     },
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {
                       "end": function anonymous(
@@ -58827,7 +61290,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -58836,7 +61301,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -58892,7 +61359,9 @@ if(this.parameters.carpet=='tibetan.0102.png'){
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -58982,7 +61451,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -59000,7 +61471,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -59010,7 +61483,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -59127,7 +61602,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -59182,7 +61659,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -59200,7 +61679,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -59210,7 +61691,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -59266,7 +61749,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -59326,7 +61811,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -59381,7 +61868,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -59405,7 +61894,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -59461,7 +61952,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -59551,7 +62044,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -59569,7 +62064,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -59579,7 +62076,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -59696,7 +62195,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -59751,7 +62252,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -59769,7 +62272,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -59779,7 +62284,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -59836,7 +62343,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -59896,7 +62405,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -59951,7 +62462,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -59977,7 +62490,9 @@ this.state.response_action='test';
                   {
                     "type": "lab.flow.Sequence",
                     "files": {},
-                    "responses": {},
+                    "responses": {
+                      "": ""
+                    },
                     "parameters": {},
                     "messageHandlers": {},
                     "title": "Sequence",
@@ -59986,7 +62501,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -60042,7 +62559,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -60132,7 +62651,9 @@ this.parameters.stage2=1;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -60150,7 +62671,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2a_timeout_check",
@@ -60160,7 +62683,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_right",
@@ -60277,7 +62802,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -60332,7 +62859,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -60350,7 +62879,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2a_timeout_check",
@@ -60360,7 +62891,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2a_left",
@@ -60416,7 +62949,9 @@ this.state.response_action='test';
                                           "tibetan.0304.png": "embedded\u002F2e975ef7a2e276281977c632c68f1ad4978f845929386d89b4df006e3bef4c55.png",
                                           "tibetan.0403.png": "embedded\u002Fa8a9dc15514d6c52d66030711d97a26960399640fd0ca3a22da40ad4da9980bc.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -60476,7 +63011,9 @@ if (this.parameters.twoa == 'tibetan.0304.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -60531,7 +63068,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -60555,7 +63094,9 @@ this.state.response_action='test';
                       {
                         "type": "lab.flow.Sequence",
                         "files": {},
-                        "responses": {},
+                        "responses": {
+                          "": ""
+                        },
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
@@ -60611,7 +63152,9 @@ this.state.response_action='test';
                               "7580.JPG": "embedded\u002F0c4a40befbaa1ef8b332bf8ef7700f311e98cd4f0ed75a6c7a1b8ef7998f6e33.JPG",
                               "9400.JPG": "embedded\u002Fe4f5f8254f5dbb23fe6937c1d6e3fe7706f30787fa6bcb2e224445268628051b.JPG"
                             },
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "before:prepare": function anonymous(
@@ -60701,7 +63244,9 @@ this.parameters.stage2=2;
                               600
                             ],
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {
                               "run": function anonymous(
@@ -60719,7 +63264,9 @@ this.parameters.trialoutcome='0';
                           {
                             "type": "lab.flow.Sequence",
                             "files": {},
-                            "responses": {},
+                            "responses": {
+                              "": ""
+                            },
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "2b_timeout_check",
@@ -60729,7 +63276,9 @@ this.parameters.trialoutcome='0';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_right",
@@ -60846,7 +63395,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                     "files": {
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -60901,7 +63452,9 @@ this.state.response_action='test';
                                       "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                       "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                     },
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {
                                       "end": function anonymous(
@@ -60919,7 +63472,9 @@ this.state.response_action='test';
                               {
                                 "type": "lab.flow.Sequence",
                                 "files": {},
-                                "responses": {},
+                                "responses": {
+                                  "": ""
+                                },
                                 "parameters": {},
                                 "messageHandlers": {},
                                 "title": "2b_timeout_check",
@@ -60929,7 +63484,9 @@ this.state.response_action='test';
                                   {
                                     "type": "lab.flow.Sequence",
                                     "files": {},
-                                    "responses": {},
+                                    "responses": {
+                                      "": ""
+                                    },
                                     "parameters": {},
                                     "messageHandlers": {},
                                     "title": "2b_left",
@@ -60986,7 +63543,9 @@ this.state.response_action='test';
                                           "tibetan.0506.png": "embedded\u002F56a1432f23845249461d734c306639d470cc1768b6f9bac002fc98a164579491.png",
                                           "tibetan.0605.png": "embedded\u002Fa2b6d3a0fb07dc63345a41ae0958552bdb2ee96d0b06ff0d34b71bb9acadb2e0.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "before:prepare": function anonymous(
@@ -61046,7 +63605,9 @@ if (this.parameters.twob == 'tibetan.0506.png') {
                                         "files": {
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -61101,7 +63662,9 @@ this.state.response_action='test';
                                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
                                           "genie_zero.png": "embedded\u002F24af999bf999d733d81efafbada32407a9a98f19fd04b001529f1fbb83399632.png"
                                         },
-                                        "responses": {},
+                                        "responses": {
+                                          "": ""
+                                        },
                                         "parameters": {},
                                         "messageHandlers": {
                                           "end": function anonymous(
@@ -61247,7 +63810,9 @@ this.state.response_action='test';
         "mode": "draw-shuffle"
       },
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Neu_Ratings",
@@ -61378,7 +63943,9 @@ this.state.response_action='test';
         "mode": "draw-shuffle"
       },
       "files": {},
-      "responses": {},
+      "responses": {
+        "": ""
+      },
       "parameters": {},
       "messageHandlers": {},
       "title": "Neg_Ratings",
