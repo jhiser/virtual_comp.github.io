@@ -4715,7 +4715,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0807.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0708.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -5307,7 +5307,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0708.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0807.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -10307,7 +10307,7 @@ this.parameters.imageshown=this.parameters.random_neu_img;
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0807.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0708.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -10901,7 +10901,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0708.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0807.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -17080,7 +17080,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -17611,7 +17611,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -22228,7 +22228,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -22821,7 +22821,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -27130,7 +27130,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -27660,7 +27660,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -31955,7 +31955,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -32485,7 +32485,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -37098,7 +37098,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -37691,7 +37691,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -42000,7 +42000,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -42530,7 +42530,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -47143,7 +47143,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -47736,7 +47736,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -52461,7 +52461,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -53054,7 +53054,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -57363,7 +57363,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -57893,7 +57893,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -62507,7 +62507,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
@@ -63100,7 +63100,7 @@ this.state.response_action='test';
                         "parameters": {},
                         "messageHandlers": {},
                         "title": "Sequence",
-                        "skip": "${ this.parameters.carpet == 'tibetan.0102.png' }",
+                        "skip": "${ this.parameters.carpet == 'tibetan.0201.png' }",
                         "content": [
                           {
                             "type": "lab.canvas.Screen",
