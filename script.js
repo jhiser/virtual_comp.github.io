@@ -4695,8 +4695,8 @@ this.state.response_action='test';
                         ],
                         "files": {
                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
-                          "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
-                          "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
+                          "two.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
+                          "one.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
                         "responses": {
                           "": ""
@@ -10241,8 +10241,8 @@ this.state.response_action='test';
                         ],
                         "files": {
                           "genie_coin.png": "embedded\u002Fdf6464753e0e33f572b6064a5713f915f9b06bb020ad5163c3e58e22c88f168c.png",
-                          "one.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
-                          "two.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
+                          "two.png": "embedded\u002F143881ed2d170b30da1c5c5028240bd0f7967bd36de5fd211ac524a7981aa193.png",
+                          "one.png": "embedded\u002Fee99e38dce8d2b6ae622a8cce3d5df3c5cc46a73167f4eab2db69f4a8dc6b2c0.png"
                         },
                         "responses": {
                           "": ""
